@@ -3,6 +3,7 @@ services:
   web:
     build:
       context: .
+    image: web_app:v1
     ports:
      - "5000:5000"
   redis:
