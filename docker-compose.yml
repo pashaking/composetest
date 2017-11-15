@@ -3,8 +3,8 @@ services:
   web:
     build:
       context: .
-    image: web_app:v1
+    image: registry.raisinlocal.com/web:v1
     ports:
-     - "56000:5000"
+     - "5000:5000"
   redis:
     image: "redis:alpine"
